@@ -10,6 +10,7 @@ public class CompareObjects {
         return object1.equals(object2);
     }
 
+
     /**
      * Метод переводит объекты в строку и дальше сравнивает
      * @param object1 - первый объект для сравнения

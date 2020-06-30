@@ -1,4 +1,5 @@
 import java.util.HashMap;
+import java.util.Iterator;
 
 public class Map {
 
@@ -39,6 +40,7 @@ public class Map {
      * @return - HashMap уже с удаленным элементом
      */
     public static HashMap<String, String> deleteValueFromMap(HashMap<String, String> map, String value) {
+
         for (HashMap.Entry<String, String> ent : map.entrySet()) {
             if (ent.getValue().equals(value)) {
                 map.remove(ent.getKey());
